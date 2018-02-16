@@ -1,0 +1,5 @@
+.row [class^="col"] {
+	border: 1px solid #333;
+	min-height: 100px;
+	background: #ddd;
+}
