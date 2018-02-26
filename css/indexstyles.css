@@ -1,123 +1,13 @@
-body
-{
-	font-family: 'Unispace';
-	color : lightgrey;
-}
-
-header
-{
-	background-color : #181c1f;
-	padding : 15px;
-}
-
-header div
-{
-	padding : 0px;
-	margin : 0px;
-	height : 55px;
-	display : flex;
-	flex-wrap : nowrap;
-	justify-content : space-around; /*alignement horizontal*/
-	align-items : center; /*alignement vertical*/
-}
-
-header div a
-{
-	font-size: 15px;
-	height: 30px;
-	width : 110px;
-	display : flex;
-	justify-content : center;
-	align-items : center;
-	text-transform : uppercase;
-	font-weight : bold;
-	border-radius : 10px;
-}
-
-.lienmenu
-{
-	color : lightgrey;
-	text-decoration : none;
-}
-
-.lienmenu:hover
-{
-	background-color : rgba(169, 169, 169, 0.165);
-}
-
-#lienglobemenu /*a besoin d'un id différent pour éviter l'effet ci-dessus (:hover)*/
-{
-	color : lightgrey;
-	text-decoration : none;
-}
-
-#globe1
-{
-	height : 50px;
-	width : 50px;
-	margin : 0px 5px;
-}
-
 section
 {
-	background-color : rgb(28, 34, 48);
+    background-color : #181c1f;
+	padding : 0px 10px;
 }
 
-footer
+section div
 {
-	background-color : #181c1f;
-	display : flex;
-	justify-content : space-around;
-	flex-wrap: nowrap;
-	padding : 15px;
-}
-
-#menufooter,#footerrealisationtitre
-{
-	font-weight : bold;
-}
-
-footer div
-{
-	padding : 3px;
-	width : 350px;
-}
-
-#menufooter,#about,#sign
-{
-	padding : 2px 5px;
-	/*border-width : 0px 1px 0px;
-	border-style : dashed;*/
-	display : flex;
-	flex-direction : column;
-	border-radius : 5px;
-}
-
-#menufooter a
-{
-	padding : 3px;
-	border-radius : 5px;
-}
-
-#menufooter a:hover
-{
-	background-color : rgba(169, 169, 169, 0.124);
-}
-
-.lienfooter
-{
-	color : lightgrey;
-	text-decoration : none;
-	width : 100px;
-}
-
-.lienfooter:first-of-type,#footerrealisationtitre,#footersignaturetitre
-{
-	color : rgba(244, 165, 96, 0.611);
-}
-
-#logosign /*logo IUT*/
-{
-	width : 119px;
-	height : 99px;
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    justify-content : space-around;
 }

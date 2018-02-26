@@ -1,40 +1,53 @@
 body
 {
-	font-family: arial;
-	color : lightgrey;
+	font-family: 'Unispace';
+    color : lightgrey;
+    box-sizing: border-box;
+    margin : 0px;
 }
 
 header
 {
 	background-color : #181c1f;
-	padding : 15px;
+	padding : 0px 10px;
 }
 
-header ul
+header div
 {
 	padding : 0px;
 	margin : 0px;
-	height : 55px;
+	height : 50px;
 	display : flex;
 	flex-wrap : nowrap;
 	justify-content : space-around; /*alignement horizontal*/
 	align-items : center; /*alignement vertical*/
 }
 
-header ul li
+header div a
 {
-	font-size: 15px;
+	font-size: 12px;
 	height: 30px;
 	width : 110px;
 	display : flex;
 	justify-content : center;
 	align-items : center;
-	text-transform : uppercase;
+	/*text-transform : uppercase;*/
 	font-weight : bold;
 	border-radius : 10px;
 }
 
-.pannprincipal:hover
+.lienmenu
+{
+	color : lightgrey;
+	text-decoration : none;
+}
+
+.lienmenu:first-of-type
+{
+	color : rgba(244, 165, 96, 0.611);
+}
+
+.lienmenu:hover
 {
 	background-color : rgba(169, 169, 169, 0.165);
 }
@@ -43,6 +56,7 @@ header ul li
 {
 	height : 50px;
 	width : 50px;
+	margin : 0px 5px;
 }
 
 section
@@ -53,30 +67,32 @@ section
 footer
 {
 	background-color : #181c1f;
-	font-weight : bold;
 	display : flex;
 	justify-content : space-around;
+	flex-wrap: nowrap;
 	padding : 15px;
+	font-size : 12px;
+}
+
+#menufooter,#footerrealisationtitre
+{
+	font-weight : bold;
 }
 
 footer div
 {
 	padding : 3px;
+	width : 350px;
 }
 
 #menufooter,#about,#sign
 {
-	padding : 0px 5px;
+	padding : 2px 5px;
 	/*border-width : 0px 1px 0px;
 	border-style : dashed;*/
 	display : flex;
 	flex-direction : column;
-}
-
-footer div *
-{
-	height : auto;
-	width : 300px;
+	border-radius : 5px;
 }
 
 #menufooter a
@@ -94,9 +110,16 @@ footer div *
 {
 	color : lightgrey;
 	text-decoration : none;
+	width : 100px;
 }
 
-#footerrealisationtitre,#footersignaturetitre
+.lienfooter:first-of-type,#footerrealisationtitre,#footersignaturetitre
 {
 	color : rgba(244, 165, 96, 0.611);
+}
+
+#logosign /*logo IUT*/
+{
+	width : 119px;
+	height : 99px;
 }
