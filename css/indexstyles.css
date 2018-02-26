@@ -1,13 +1,70 @@
+
 section
 {
-    background-color : #181c1f;
-	padding : 0px 10px;
+    background-color : rgba(24,28,31,1);
+    padding : 0px;
+    max-width : 100%;
 }
 
 section div
 {
     display : flex;
-    flex-direction : row;
-    flex-wrap : wrap;
+    flex-direction : column;
+    flex-wrap : nowrap;
+    align-items : center;
     justify-content : space-around;
+}
+
+section div a
+{
+	font-size: 12px;
+    border-radius : 10px;
+    margin : 8px;
+    color : lightgrey;
+    text-decoration : none;
+    width : 90%;
+    height : 600px;
+    border : 2px solid lightgrey;
+    display : flex;
+    flex-direction : column-reverse;
+}
+
+.imageindex
+{
+    border-radius : 10px;
+    max-width : auto;
+    display : inline;
+}
+
+.divindex
+{
+    border-radius : 10px;
+    background-color : rgba(24,28,31,0.6); /*la quatrième paramètre représente l'opacité*/
+    font-size : 12px;
+    padding : 5px 5px 30px 5px;
+    margin : 0px;
+}
+
+#lienindexplanete
+{
+    background-image: url('./../img/index/planete.jpg');
+    background-size: cover;
+}
+
+#lienindexsysteme
+{
+    background-image: url('./../img/index/systemesolaire.jpg');
+    background-size: cover;
+}
+
+#lienindexgalaxie
+{
+    background-image: url('./../img/index/galaxie.jpeg');
+    background-size: cover;
+}
+
+#lienindexunivers
+{
+    background-image: url('./../img/index/univers.jpg');
+    background-size: cover;
 }
