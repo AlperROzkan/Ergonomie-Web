@@ -1,47 +1,47 @@
-.col-1{
-  background-color: blue;
+section{
+  display: flex;
 }
 
-.col-2{
-  background-color: blue;
+section div div div {
+  border-radius: 10px;
+  margin: 8px;
+  text-decoration: none;
+  width: 90%;
+  border: 2px solid lightgrey;
+  text-align: center;
 }
 
-.col-3{
-  background-color: blue;
+#terre{
+  background-image: url(./../img/planetes/terre.jpg);
+  background-size: cover;
 }
 
-.col-4{
-  background-color: blue;
+#mars{
+  background-image: url(./../img/planetes/mars.jpg);
+  background-size: cover;
 }
 
-.col-5{
-  background-color: blue;
+#venus{
+  background-image: url(./../img/planetes/venus.jpg);
+  background-size: cover;
 }
 
-.col-6{
-  background-color: blue;
+#mercure{
+  background-image: url(./../img/planetes/mercure.jpg);
+  background-size: cover;
 }
 
-.col-7{
-  background-color: blue;
+#mercure{
+  background-image: url(./../img/planetes/mercure.jpg);
+  background-size: cover;
 }
 
-.col-8{
-  background-color: blue;
+#jupiter{
+  background-image: url(./../img/planetes/jupiter.jpg);
+  background-size: cover;
 }
 
-.col-9{
-  background-color: blue;
-}
-
-.col-10{
-  background-color: blue;
-}
-
-.col-11{
-  background-color: blue;
-}
-
-.col-12{
-  background-color: blue;
+#saturne{
+  background-image: url(./../img/planetes/saturne.jpg);
+  background-size: cover;
 }
