@@ -16,43 +16,9 @@ section div div div {
   background-size: cover;
 }
 
-#terreInfo{
-  display: none;
-  align: center;
-}
-
-#terre:hover #terreInfo{
-  display: inline-flex;
-  border: none;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  height: 700px;
-}
-
-#terreInfo div{
-  background-color: rgba(44,44,44,0.5);
-}
-
 #mars{
   background-image: url(./../img/planetes/mars.jpg);
   background-size: cover;
-}
-
-#marsInfo{
-  display: none;
-  align: center;
-}
-
-#mars:hover #marsInfo{
-  display: inline-flex;
-  border: none;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  height: 700px;
-}
-
-#marsInfo div{
-  background-color: rgba(44,44,44,0.5);
 }
 
 #venus{
@@ -60,43 +26,9 @@ section div div div {
   background-size: cover;
 }
 
-#venusInfo{
-  display: none;
-  align: center;
-}
-
-#venus:hover #venusInfo{
-  display: inline-flex;
-  border: none;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  height: 700px;
-}
-
-#venusInfo div{
-  background-color: rgba(44,44,44,0.5);
-}
-
 #mercure{
   background-image: url(./../img/planetes/mercure.jpg);
   background-size: cover;
-}
-
-#mercureInfo{
-  display: none;
-  align: center;
-}
-
-#mercure:hover #mercureInfo{
-  display: inline-flex;
-  border: none;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  height: 700px;
-}
-
-#mercureInfo div{
-  background-color: rgba(44,44,44,0.5);
 }
 
 #jupiter{
@@ -104,41 +36,47 @@ section div div div {
   background-size: cover;
 }
 
-#jupiterInfo{
-  display: none;
-  align: center;
-}
-
-#jupiter:hover #jupiterInfo{
-  display: inline-flex;
-  border: none;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  height: 700px;
-}
-
-#jupiterInfo div{
-  background-color: rgba(44,44,44,0.5);
-}
-
 #saturne{
   background-image: url(./../img/planetes/saturne.jpg);
   background-size: cover;
 }
 
-#saturneInfo{
+#terreInfo, #marsInfo, #venusInfo, #mercureInfo, #jupiterInfo, #saturneInfo{
+  position: absolute;
+  left: 170px;
+  width: 600px;
+}
+
+#terreInfo{
+  top: 0px;
   display: none;
-  align: center;
 }
 
-#saturne:hover #saturneInfo{
-  display: inline-flex;
-  border: none;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  height: 700px;
+#marsInfo{
+  top: -83px;
+  display: none;
 }
 
-#saturneInfo div{
-  background-color: rgba(44,44,44,0.5);
+#venusInfo{
+  top: -166px;
+  display: none;
+}
+
+#mercureInfo{
+  top: -249px;
+  display: none;
+}
+
+#jupiterInfo{
+  top: -332px;
+  display: none;
+}
+
+#saturneInfo{
+  top: -415px;
+  display: none;
+}
+
+#terre:hover #terreInfo, #mars:hover #marsInfo, #venus:hover #venusInfo, #mercure:hover #mercureInfo, #jupiter:hover #jupiterInfo, #saturne:hover #saturneInfo{
+  display: block;
 }
