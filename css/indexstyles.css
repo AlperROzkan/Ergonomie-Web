@@ -38,7 +38,7 @@ section div a
 
 .divindex
 {
-    border-radius : 10px;
+    border-radius : 0px 0px 10px 10px;
     background-color : rgba(24,28,31,0.6); /*la quatrième paramètre représente l'opacité*/
     font-size : 12px;
     padding : 5px 5px 30px 5px;
