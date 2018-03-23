@@ -2,13 +2,18 @@ section{
   display: flex;
 }
 
-section div div div {
+section div div div{
   border-radius: 10px;
   margin: 8px;
   text-decoration: none;
   width: 90%;
   border: 2px solid lightgrey;
   text-align: center;
+}
+
+section #menu2{
+  position: sticky;
+  top:100px;
 }
 
 #terre{
@@ -39,44 +44,4 @@ section div div div {
 #saturne{
   background-image: url(./../img/planetes/saturne.jpg);
   background-size: cover;
-}
-
-#terreInfo, #marsInfo, #venusInfo, #mercureInfo, #jupiterInfo, #saturneInfo{
-  position: absolute;
-  left: 170px;
-  width: 600px;
-}
-
-#terreInfo{
-  top: 0px;
-  display: none;
-}
-
-#marsInfo{
-  top: -83px;
-  display: none;
-}
-
-#venusInfo{
-  top: -166px;
-  display: none;
-}
-
-#mercureInfo{
-  top: -249px;
-  display: none;
-}
-
-#jupiterInfo{
-  top: -332px;
-  display: none;
-}
-
-#saturneInfo{
-  top: -415px;
-  display: none;
-}
-
-#terre:hover #terreInfo, #mars:hover #marsInfo, #venus:hover #venusInfo, #mercure:hover #mercureInfo, #jupiter:hover #jupiterInfo, #saturne:hover #saturneInfo{
-  display: block;
 }
