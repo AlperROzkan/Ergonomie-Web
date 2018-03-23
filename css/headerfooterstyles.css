@@ -75,13 +75,14 @@ header div a
 {
 	font-size: 12px;
 	height: 30px;
-	width : 110px;
+	width : 170px;
 	display : flex;
 	justify-content : center;
 	align-items : center;
 	/*text-transform : uppercase;*/
 	font-weight : bold;
 	border-radius : 10px;
+  background-color: #363C41;
 }
 
 .lienmenu
@@ -97,7 +98,7 @@ header div a
 
 .lienmenu:hover
 {
-	background-color : rgba(169, 169, 169, 0.165);
+	background-color : #505961;
 }
 
 #globe1

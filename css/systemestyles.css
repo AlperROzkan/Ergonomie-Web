@@ -1,0 +1,27 @@
+section{
+  display: flex;
+}
+
+section div div div{
+  border-radius: 10px;
+  margin: 8px;
+  text-decoration: none;
+  width: 90%;
+  border: 2px solid lightgrey;
+  text-align: center;
+}
+
+
+
+#menu{
+  position:sticky;
+  top: 100px;
+}
+
+.col-3{
+  justify-content: flex-start;
+}
+.col-12{
+  background-image: url(./../img/planetes/terre.jpg);
+  background-size: cover;
+}
