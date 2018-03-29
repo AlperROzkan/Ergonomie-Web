@@ -29,6 +29,10 @@ section .col-3 h3{
   text-align: center;
 }
 
+#texte{
+  text-align: justify;
+}
+
 #terre{
   background-image: url(./../img/planetes/terre.jpg);
   background-size: cover;
@@ -69,7 +73,7 @@ section .col-3 h3{
   background-size: cover;
 }
 
-#image{
+#imagem{
   border-top: 2px solid lightgrey;
   border-right: 2px solid lightgrey;
   border-bottom: 2px solid lightgrey;

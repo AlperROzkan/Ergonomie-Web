@@ -28,6 +28,10 @@ section .col-3 h3{
   text-align: center;
 }
 
+#texte{
+  text-align: justify;
+}
+
 #sol{
   background-image: url(./../img/systemes/sol.jpg);
   background-size: cover;
