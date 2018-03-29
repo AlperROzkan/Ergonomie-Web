@@ -11,17 +11,65 @@ section div div div{
   text-align: center;
 }
 
-
-
-#menu{
-  position:sticky;
-  top: 100px;
+section #menu2{
+  position: sticky;
+  top:70px;
 }
 
-.col-3{
-  justify-content: flex-start;
+section .col-3 h3{
+  background-color: rgba(10, 10, 10, 0.5);
 }
-.col-12{
-  background-image: url(./../img/planetes/terre.jpg);
+
+#contenu{
+  margin: 8px;
+  text-decoration: none;
+  width: 90%;
+  border: 2px solid lightgrey;
+  text-align: center;
+}
+
+#sol{
+  background-image: url(./../img/systemes/sol.jpg);
   background-size: cover;
+}
+
+#alpha{
+  background-image: url(./../img/systemes/alpha.jpg);
+  background-size: cover;
+}
+
+#luhman{
+  background-image: url(./../img/systemes/luhman.png);
+  background-size: cover;
+}
+
+#wise_1{
+  background-image: url(./../img/systemes/wise.png);
+  background-size: cover;
+}
+
+#wolf{
+  background-image: url(./../img/systemes/wolf.jpg);
+  background-size: cover;
+}
+
+#image{
+  border-top: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+}
+
+a{
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.planete{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.texte{
+  border: none;
 }

@@ -69,6 +69,12 @@ section .col-3 h3{
   background-size: cover;
 }
 
+#image{
+  border-top: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+}
+
 a{
   text-decoration: none;
   color: lightgrey;
