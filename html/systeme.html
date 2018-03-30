@@ -13,7 +13,7 @@
 <body>
   <header>
 
-    <div>
+    <div id="haut">
       <a href="./index.html" class="lienmenu">Index</a>
       <a href="./planete.html" class="lienmenu">Planête</a>
       <a href="./systeme.html" class="lienmenu">Système</a>
@@ -29,24 +29,36 @@
     <div class="col-3" id="menu">
       <div id="menu2">
         <h2>Menu</h2>
-        <div class="col-12">
-          <img src="../img\up.png" alt="fleche vers le haut" width="50px" height="50px">
-        </div>
-        <div class="col-12" id="sol">
-          <h3>Le système solaire</h3>
-        </div>
-        <div class="col-12" id="alpha">
-          <h3>Alpha Centauri</h3>
-        </div>
-        <div class="col-12" id="luhman">
-          <h3>Luhman</h3>
-        </div>
-        <div class="col-12" id="wise_1">
-          <h3>WISE 0855–0714</h3>
-        </div>
-        <div class="col-12" id="wolf">
-          <h3>Wolf</h3>
-        </div>
+        <a href="#haut">
+          <div class="col-12">
+            <img src="../img\up.png" alt="fleche vers le haut" width="50px" height="50px">
+          </div>
+        </a>
+        <a href="#solInfo">
+          <div class="col-12" id="sol">
+            <h3>Le système solaire</h3>
+          </div>
+        </a>
+        <a href="#alphaInfo">
+          <div class="col-12" id="alpha">
+            <h3>Alpha Centauri</h3>
+          </div>
+        </a>
+        <a href="#luhmanInfo">
+          <div class="col-12" id="luhman">
+            <h3>Luhman</h3>
+          </div>
+        </a>
+        <a href="#wiseInfo">
+          <div class="col-12" id="wise">
+            <h3>WISE 0855–0714</h3>
+          </div>
+        </a>
+        <a href="#wolfInfo">
+          <div class="col-12" id="wolf">
+            <h3>Wolf</h3>
+          </div>
+        </a>
       </div>
 
     </div>
@@ -77,7 +89,7 @@
       </div>
       <hr>
 
-      <div class="planete" id="alphaInfo">
+      <div class="planete" id="luhmanInfo">
         <img src="./../img/systemes/luhman.png" alt="image de alpha centauri" width="300" height="133" id="image"/>
         <div class="texte" id="texte">
           <h3>Luhman</h3>
@@ -91,14 +103,23 @@ WISE 1049-5319 apparaît dans le ciel à proximité du plan galactique qui est d
       </div>
       <hr>
 
-      <div class="planete" id="alphaInfo">
-        <img src="./../img/systemes/alpha.jpg" alt="image de alpha centauri" width="500" height="200" id="image"/>
+      <div class="planete" id="wiseInfo">
+        <img src="./../img/systemes/wise.png" alt="image de alpha centauri" width="500" height="200" id="image"/>
         <div class="texte" id="texte">
-          <h3>Alpha centauri</h3>
+          <h3>WISE 0855–0714</h3>
           <p>Alpha Centauri (α Centauri, abrégé en α Cen, selon la désignation de Bayer) appelée également Alpha du Centaure, ou parfois Rigil Kentaurus, Rigil Kentarus, Toliman ou Bungula, est un système de trois étoiles avec trois planètes (dont deux sont incertaines) : Alpha Centauri A et Alpha Centauri B sont les deux étoiles principales qui forment une étoile double, Proxima Centauri (Alpha Centauri C) est une naine rouge bien moins lumineuse, qui est l'étoile la plus proche du Soleil connue à ce jour. Alpha Centauri Bb (contestée) et Alpha Centauri Bc (candidat) sont deux planètes à l'existence incertaine qui seraient en orbite autour d'Alpha Centauri B, et enfin Proxima Centauri b est une planète en orbite autour de Proxima Centauri. Alpha Centauri est le système stellaire et planétaire le plus proche du système solaire.</p>
           <p>Des trois étoiles, c'est Proxima Centauri (littéralement « [l'étoile] du Centaure la plus proche ») qui est la plus proche de nous, à 4,22 années-lumière (1,29 parsec), soit 270 000 fois la distance entre la Terre et le Soleil. Proxima est une naine rouge de magnitude apparente 11, donc beaucoup trop faible pour être vue à l'œil nu.
           Elle est éloignée d'Alpha Centauri par 13 000 UA et bien que son orbite autour du couple central ne soit pas directement connue, l'association entre ces trois étoiles n'est pas entièrement accidentelle car Proxima et le couple principal se déplacent ensemble parallèlement. Pour cette raison, Proxima est parfois appelée Alpha Centauri C. La période de cette orbite, anciennement estimée à entre 500 000 ans et 2 millions d'années, a été réévaluée à environ 600 000 ans (précisément 591+65
           −43 ka) par Pierre Kervella, Frédéric Thévenin et Christophe Lovis.</p>
+          </div>
+      </div>
+      <hr>
+
+      <div class="planete" id="wolfInfo">
+        <img src="./../img/systemes/wolf.jpg" alt="image de alpha centauri" width="500" height="200" id="image"/>
+        <div class="texte" id="texte">
+          <h3>Wolf 424</h3>
+          <p></p>
           </div>
       </div>
     </div>
